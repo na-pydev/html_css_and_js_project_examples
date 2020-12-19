@@ -1,0 +1,59 @@
+body {
+	background-color: #333333;
+	color: white;
+}
+
+div {
+	width:510px;
+	height: 510px;
+	padding: 20px;
+	border:6px solid cyan;
+	position: fixed; 
+    background-color: black; 
+    top: 25%; 
+    left: 30%; 
+    margin-top: -100px; 
+    margin-left: -100px;
+    color: cyan;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+h1 {
+	text-align: center;
+	color: cyan;
+}
+
+input {
+	border-radius: 6px;
+	border:2px solid #0066ff;
+	background-color: cyan;
+	color:black;
+	margin:6px;
+	height: 32px;
+	width: 350px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input:hover {
+	border: 2px solid red;
+	box-shadow: 8px 6px;
+}
+
+button:hover {
+	border: 2px solid red;
+}
+
+button {
+	width: 100%;
+	background-color: cyan; 
+	border-radius: 6px;
+	margin-top:30px;
+	border:2px solid cyan;
+	font-weight: bold;
+	font-size: 110%;
+	height:35px;
+	color: black;
+}
