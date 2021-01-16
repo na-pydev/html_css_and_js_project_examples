@@ -1,0 +1,93 @@
+body {
+  width:100%;
+  position:absolute;
+  overflow:scroll;
+  overflow-x:hidden;
+  top:-10px;
+  left:-5px;
+  padding:20px;
+  font-family:'Inconsolata', monospace;
+  text-align:center;
+}
+
+
+body::after {
+    content: "";
+    background: url("https://cdn-images-1.medium.com/max/1000/1*jGU2tv2-YsCc2r5y-V5Z7w.jpeg") fixed;
+    background-size:cover;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  #form-container {
+    background-color:rgba(90,90,90,0.8);
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    padding: 3vw;
+    margin-top:40px;
+    text-align:left;
+    postion: absolute;
+    z-index:3;
+    border-radius:4px;
+  }
+  
+h1 {
+    font-size:4vw;
+}
+p {
+    font-size:1.6vw;
+}
+
+  form p{
+    font-size:1.7vw;
+    margin-bottom:1vw;
+  }
+  
+  p+input, input[type='submit'] {
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    font-size:1.3vw;
+    text-indent:8px;
+    border-radius:4px;
+    padding:0.3vw;
+  }
+  
+  input[type='submit'] {
+    margin-top: 20px;
+    width:101%;
+    font-weight:bold;
+    background-color: rgba(150,150,150)
+  }
+  
+  input[type='submit']:hover {
+    background-color: green;
+  }
+  
+  select {
+    margin-left:auto;
+    margin-right:auto;
+    width:102%;
+    font-size:1.5vw;
+    text-indent:8px;
+    border-radius:4px;
+    padding:0.3vw;
+    color:gray;
+  }
+  
+  input[type='radio'], input[type='checkbox'] {
+    border: 0px;
+    width: 5%;
+    height: 1vw;
+  }
+
+  textarea {
+    width:100%;
+    font-size:1.7vw;
+  }
