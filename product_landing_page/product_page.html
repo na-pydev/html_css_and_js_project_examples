@@ -1,111 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="product.css" rel="stylesheet" type="text/css">
-  <title>Product landing page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="product.css" rel="stylesheet" type="text/css">
+    <title>Product landing page</title>
 </head>
+
 <body>
-  <header id="header">
-    <div id="icon"><img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="original trombones icon"/></div>
-    <nav id="nav-bar">
-      <div class="nav-box"><a href="#info" class="nav-link" >Features</a></div>
-      <div class="nav-box"><a href="#video" class="nav-link" >How It Works</a></div>
-      <div class="nav-box"><a href="#box" class="nav-link" >Pricing</a></div>
-    </nav>
-  </header>
-  <main>
-    <h1> Handcrafted, home-made masterpieces</h1>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input type="email" name="email" id="email" placeholder="Enter your email address" /><br>
-      <input type="submit" id="submit" value="GET STARTED" />
-    </form>
-    <div id="info">
-      <div class="img">
-        <img class="text-img"  src="fire.png">
-      </div>
-      <div class="text">
-        <span style="font-size:28px; font-weight:800">Premium Materials</span><br>
-        Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-      </div>
-      <div class="img">
-        <img class="text-img"  src="truck.png">
-      </div>
-      <div class="text">
-        <span style="font-size:28px; font-weight:800">Fast Shipping</span><br>
-        We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
-      </div>
-      <div class="img">
-        <img class="text-img"  src="battery.png">
-      </div>
-      <div class="text">
-        <span style="font-size:28px; font-weight:800">Quality Assurance</span><br>
-        For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
-      </div>
+    <div class="container">
+        <header id="header">
+            <div id="icon">
+                <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
+                    alt="original trombones icon" />
+            </div>
+            <nav id="nav-bar">
+                <div class="nav-box">
+                    <a href="#info" class="nav-link">Features</a>
+                </div>
+                <div class="nav-box">
+                    <a href="#video" class="nav-link">How It Works</a>
+                </div>
+                <div class="nav-box">
+                    <a href="#box" class="nav-link">Pricing</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1>
+                Handcrafted, home-made masterpieces</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" name="email" id="email" placeholder="Enter your email address" /><br>
+                <input type="submit" id="submit" value="GET STARTED" />
+            </form>
+            <div id="info">
+                <div class="img">
+                    <img class="text-img" src="fire.png">
+                </div>
+                <div class="text">
+                    <span style="font-size:28px; font-weight:800">Premium Materials</span><br>
+                    Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
+                    your
+                    purchase.
+                </div>
+                <div class="img">
+                    <img class="text-img" src="truck.png">
+                </div>
+                <div class="text">
+                    <span style="font-size:28px; font-weight:800">Fast Shipping</span><br>
+                    We make sure you recieve your trombone as soon as we have finished making it. We also provide free
+                    returns if you are not satisfied.
+                </div>
+                <div class="img">
+                    <img class="text-img" src="battery.png">
+                </div>
+                <div class="text">
+                    <span style="font-size:28px; font-weight:800">Quality Assurance</span><br>
+                    For every purchase you make, we will ensure there are no damages or faults and we will check and
+                    test
+                    the pitch of your instrument.
+                </div>
+            </div>
+            <iframe id="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div id="box">
+                <div class="box1">
+                    <div class="box2">
+                        <span class="title">TENOR TROMBONE</span>
+                    </div>
+                    <div><br>
+                        <span class="title">$600</span><br>
+                        <p class="card-text">
+                            Lorem ipsum.<br>
+                            Lorem ipsum.<br>
+                            Lorem ipsum dolor.<br>
+                            Lorem ipsum.<br>
+                        </p>
+                        <p>
+                            <input type="submit" class="select" value="SELECT" />
+                        </p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="box2">
+                        <span class="title">BASS TROMBONE</span>
+                    </div>
+                    <div><br>
+                        <span class="title">$900</span><br>
+                        <p class="card-text">
+                            Lorem ipsum.<br>
+                            Lorem ipsum.<br>
+                            Lorem ipsum dolor.<br>
+                            Lorem ipsum.<br>
+                        </p>
+                        <p>
+                            <input type="submit" class="select" value="SELECT" />
+                        </p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="box2">
+                        <span class="title">VALVE TROMBONE</span>
+                    </div>
+                    <div><br>
+                        <span class="title">$1200</span><br>
+                        <p class="card-text">
+                            Lorem ipsum.<br>
+                            Lorem ipsum.<br>
+                            Lorem ipsum dolor.<br>
+                            Lorem ipsum.<br>
+                        </p>
+                        <p>
+                            <input type="submit" class="select" value="SELECT" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="footer-box">
+                <p>
+                    <a href="#">Privacy</a>
+                </p>
+                <p>
+                    <a href="#">Terms</a>
+                </p>
+                <p>
+                    <p href="#">Contact</p>
+                </a>
+            </div>
+            <p>Copyright 2021, Nurmatov Abdurahim</p>
+        </footer>
     </div>
-    <iframe id="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   <div id="box">
-     <div class="box1">
-       <div class="box2">
-         <span class="title">TENOR TROMBONE</span>
-       </div>
-       <div><br>
-         <span class="title" >$600</span><br>
-         <p class="card-text">
-           Lorem ipsum.<br>
-           Lorem ipsum.<br>
-           Lorem ipsum dolor.<br>
-           Lorem ipsum.<br>
-         </p>
-         <p>
-           <input type="submit" class="select" value="SELECT" />
-         </p>
-       </div>
-     </div>
-     <div class="box1">
-       <div class="box2">
-        <span class="title">BASS TROMBONE</span>
-       </div>
-       <div><br>
-       <span class="title" >$900</span><br>
-         <p class="card-text">
-          Lorem ipsum.<br>
-          Lorem ipsum.<br>
-          Lorem ipsum dolor.<br>
-          Lorem ipsum.<br>
-         </p>
-         <p>
-           <input type="submit" class="select" value="SELECT" />
-         </p>
-       </div>
-     </div>
-     <div class="box1">
-       <div class="box2">
-        <span class="title">VALVE TROMBONE</span>
-       </div>
-       <div><br>
-       <span class="title" >$1200</span><br>
-         <p class="card-text">
-          Lorem ipsum.<br>
-          Lorem ipsum.<br>
-          Lorem ipsum dolor.<br>
-          Lorem ipsum.<br>
-         </p>
-         <p>
-           <input type="submit" class="select" value="SELECT" />
-         </p>
-       </div>
-     </div>
-    </div> 
-  </main>
-  <footer>
-    <div id="footer-box">
-      <p><a href="#">Privacy</a></p>
-      <p><a href="#">Terms</a></p>
-      <p><a href="#">Contact</a></p>
-    </div>
-    <p>Copyright 2021, Nurmatov Abdurahim</p>
-  </footer>
 </body>
+
 </html>

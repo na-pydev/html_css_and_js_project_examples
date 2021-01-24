@@ -6,60 +6,48 @@ body {
     padding: 30px;
   }
 
-  p {
-      font-size:2vw;
-  }
-  
-  h3 {
-      font-size:2vw;
-  }
-
-  #main {
+   #main {
     background-color: #192730;
     border-radius: 10px;
+    max-width: 1000px;
     width: 100%;
+    margin: 0 auto;
     padding: 10px;
   }
-  
-  #title {
-      font-size: 5vw;
-  }
-  
-  #quote {
-   font-size: 1.5vw; 
-  }
-  
+
   #img-div {
     border-radius: 10px;
     background-color: #000;
     padding:10px;
   }
-  
-  #img-caption {
-    font-size:1vw;
+
+  #image {
+    max-width: 100%;
+    margin: 0 auto;
   }
-  
+
   #tribute-info {
-    padding: 10vw;
-    padding-top: 1vw;
-    padding-bottom: 2vw;
     text-align: justify;
+    border-radius: 10px;
+    padding: 2em;
   }
-  
+
   #title2 {
-    text-align:center;
-    font-size:2vw;
+    text-align:center
   }
-  
+
   a {
     color: green;
   }
 
-#image {
-width: 100%;
-height: auto;
-max-width: 700px;
-margin-left: auto;
-margin-right: auto;
-display: block;
-}
+  #img-caption {
+    font-size:1rem;
+  }
+
+  h1 {
+    font-size:3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
